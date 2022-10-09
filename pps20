@@ -1,0 +1,12 @@
+// This is a local variable
+#include<stdio.h>
+void myfunction()
+{
+  int num = 99;
+  printf("Local variable num value: %d", num);
+}
+int main()
+{
+  myfunction();
+  return (0);
+}
