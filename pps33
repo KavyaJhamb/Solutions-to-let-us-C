@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+{
+   int op1, op2, sub;      
+   
+   op1 = 5;                
+   op2 = 3;
+   
+   sub = op1 - op2;        
+   
+   printf("Output of %d − %d is %d", op1, op2, sub);
+   return (0);
+}
