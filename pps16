@@ -1,0 +1,24 @@
+#include <stdio.h>
+int main() 
+{
+    int a, b;
+    printf("Enter two integers: ");
+    scanf("%d %d", &a, &b);
+    //checks if the two integers are equal
+    if ( a==b)
+{ 
+    printf("Result: %d = %d", a,b);
+}
+ //checks if number1 is greater than number2
+    else if (a > b)
+{
+    printf("Result: %d > %d", a, b);
+}
+  //checks if both test expressions are false
+    else
+{
+   printf("Result: %d < %d",a, b);
+ }
+
+    return 0;
+ }
